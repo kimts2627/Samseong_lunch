@@ -1,11 +1,18 @@
 import React from "react";
+import { GetServerSideProps } from 'next'
 import Header from "../components/Header";
+import Footer from '../components/Footer'
+import KakaoMap from "../components/KakaoMap";
 
 const Home: React.FC = () => {
+
   return <div>
     <Header />
-    <p className='text-red-400'>아 뭐냐고</p>
+    <KakaoMap />
+    <Footer />
   </div>;
 };
+
+
 
 export default Home;
