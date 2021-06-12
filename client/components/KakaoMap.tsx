@@ -29,7 +29,7 @@ const KakaoMap: React.FC = () => {
     };
   }, []);
 
-  return <div id='Mymap' className='w-96 h-96'></div>
+  return <div id='Mymap' className='w-full max-w-7xl h-96'></div>
 }
 
 export default KakaoMap
